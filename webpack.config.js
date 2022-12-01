@@ -57,20 +57,20 @@ module.exports = {
       template: path.resolve(__dirname, "src/index.html"),
     }),
     new HtmlWebpackPlugin({
-      filename : "who.html",
-      template: path.resolve(__dirname, "src/who.html"),
+      filename : "reglement.html",
+      template: path.resolve(__dirname, "src/reglement.html"),
     }),
     new HtmlWebpackPlugin({
-      filename : "what.html",
-      template: path.resolve(__dirname, "src/what.html"),
+      filename : "equipement.html",
+      template: path.resolve(__dirname, "src/equipement.html"),
     }),
     new HtmlWebpackPlugin({
-      filename : "where.html",
-      template: path.resolve(__dirname, "src/where.html"),
+      filename : "club.html",
+      template: path.resolve(__dirname, "src/club.html"),
     }),
     new HtmlWebpackPlugin({
-      filename : "contact.html",
-      template: path.resolve(__dirname, "src/contact.html"),
+      filename : "competition.html",
+      template: path.resolve(__dirname, "src/competition.html"),
     }),
   ],
   stats: "minimal",
