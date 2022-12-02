@@ -7,7 +7,7 @@ body{
     height: 100vh;
 }
 header{
-    height: 20%;
+    height: 15%;
 }
 
 h1{
@@ -55,7 +55,7 @@ nav img{
 
 }
 main{
-    height: 60%;
+    height: 70%;
     display: flex;
     align-items: start;
     gap: 5px;
@@ -139,44 +139,42 @@ footer .section-left{
     gap: 5px;
 }
 
-.vidz-box{
+.vidz-box, .img-box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
-.img-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-}
+   
 
 .description{
     font-family: sans-serif;
-    font-style: 12px;
+    font-style: 22px;
     overflow-y: auto;
-    border: 1px solid;
 }
 
 .vidz-item{
     width: 280px;
     height: 158px;
-    border: 1px solid;
 }
 
 .img-item{
     width: 500px;
     height: 500px;
-    border: 1px solid;
 }
+.img-item:nth-child(2){
+    background: url("https://espritbleu.franceolympique.com/espritbleu/fichiers/album/3/carr_3673.jpg") no-repeat center/cover;
+}
+.img-item:nth-child(2){
+    
+}
+
 .logo-box{
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    border: 1px solid;
+    
 }
 
 .logo-item{
@@ -184,4 +182,28 @@ footer .section-left{
     height: 80px; 
     border-radius: 100%;
     background-color: blue;
+}
+
+.logo-item:nth-child(1){
+    background: url("./assets/images/insta.png") no-repeat center/cover;
+}
+.logo-item:nth-child(2){
+    background: url("./assets/images/facebook.png") no-repeat center/cover;
+}
+.logo-item:nth-child(3){
+    background: url("./assets/images/twitter.png") no-repeat center/cover;
+}
+.logo-item:nth-child(4){
+    background: url("./assets/images/whatsap.png") no-repeat center/cover;
+}
+.logo-item:nth-child(5){
+    background: url("./assets/images/tiktok.png") no-repeat center/cover;
+}
+.equipement-box{
+    height: 60%;
+    width: 50%;
+}
+.equipement-img{
+    width: 45%;
+    height: 20%;
 }
